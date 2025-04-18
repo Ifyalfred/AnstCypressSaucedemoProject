@@ -1,0 +1,7 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","6368","Test for unsuccessful login for locked out user","","Tue Apr 01 09:44:22 WAT 2025","passed","Tue Apr 01 09:44:28 WAT 2025","","Login Test for Saucedemo","",""
+"","4947","Test for Problem User Login and Checkout","","Tue Apr 01 09:44:29 WAT 2025","passed","Tue Apr 01 09:44:34 WAT 2025","","Login Test for Saucedemo","",""
+"","10219","Test for Performance Glitch User Login and Checkout","","Tue Apr 01 09:44:34 WAT 2025","passed","Tue Apr 01 09:44:44 WAT 2025","","Login Test for Saucedemo","",""
+"","4882","Test for Visual User Login and Checkout","","Tue Apr 01 09:44:50 WAT 2025","passed","Tue Apr 01 09:44:55 WAT 2025","","Login Test for Saucedemo","",""
+"","8718","Test for Successful Login and Checkout","","Tue Apr 01 09:44:12 WAT 2025","passed","Tue Apr 01 09:44:21 WAT 2025","","Login Test for Saucedemo","",""
+"","4911","Test for Error User Login and Checkout","","Tue Apr 01 09:44:45 WAT 2025","passed","Tue Apr 01 09:44:50 WAT 2025","","Login Test for Saucedemo","",""
