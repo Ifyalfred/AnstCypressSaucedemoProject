@@ -1,1 +1,37 @@
-{"uuid":"3699e2c3-058f-4c08-b069-0143f6dba9bd","historyId":"c3d5bd9a9b927ea4ab712745095bfc77","status":"failed","statusDetails":{"message":"cy.typeTextCommand is not a function","trace":"TypeError: cy.typeTextCommand is not a function\n    at Context.eval (webpack://anst_cypress_project/./cypress/e2e/SwagLabsLoginTest.spec.cy.js:72:7)\n    at runnable.fn (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:139129:19)\n    at callFn (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:157729:21)\n    at Runnable.run (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:157716:7)\n    at <unknown> (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:163646:30)\n    at PassThroughHandlerContext.finallyHandler (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:4042:23)\n    at PassThroughHandlerContext.tryCatcher (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1546:18)"},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743624944209,"name":"visit (\"/\")","stop":1743624944210}],"attachments":[],"parameters":[],"labels":[{"name":"package","value":"cypress.e2e.SwagLabsLoginTest.spec.cy.js"},{"name":"suite","value":"Login Test for Saucedemo Project with Multiple Users"}],"links":[],"start":1743624943862,"name":"Test for Performance Glitch User Login and Checkout","fullName":"Test for Performance Glitch User Login and Checkout","stop":1743624944211}
+{
+  "uuid": "3699e2c3-058f-4c08-b069-0143f6dba9bd",
+  "historyId": "c3d5bd9a9b927ea4ab712745095bfc77",
+  "status": "failed",
+  "statusDetails": {
+    "message": "cy.typeTextCommand is not a function",
+    "trace": "TypeError: cy.typeTextCommand is not a function\n    at Context.eval (webpack://anst_cypress_project/./cypress/e2e/SwagLabsLoginTest.spec.cy.js:72:7)\n    at runnable.fn (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:139129:19)\n    at callFn (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:157729:21)\n    at Runnable.run (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:157716:7)\n    at <unknown> (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:163646:30)\n    at PassThroughHandlerContext.finallyHandler (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:4042:23)\n    at PassThroughHandlerContext.tryCatcher (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1546:18)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743624944209,
+      "name": "visit (\"/\")",
+      "stop": 1743624944210
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "labels": [
+    { "name": "package", "value": "cypress.e2e.SwagLabsLoginTest.spec.cy.js" },
+    {
+      "name": "suite",
+      "value": "Login Test for Saucedemo Project with Multiple Users"
+    }
+  ],
+  "links": [],
+  "start": 1743624943862,
+  "name": "Test for Performance Glitch User Login and Checkout",
+  "fullName": "Test for Performance Glitch User Login and Checkout",
+  "stop": 1743624944211
+}

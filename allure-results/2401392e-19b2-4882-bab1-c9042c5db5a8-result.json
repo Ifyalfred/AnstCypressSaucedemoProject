@@ -1,1 +1,1002 @@
-{"uuid":"2401392e-19b2-4882-bab1-c9042c5db5a8","historyId":"370d52f131db9e5f755dc6ed26e6d06d","status":"failed","statusDetails":{"message":"Timed out retrying after 4000ms: expected '<div.summary_info>' to contain 'Sauce Labs Backpack'","trace":"AssertionError: Timed out retrying after 4000ms: expected '<div.summary_info>' to contain 'Sauce Labs Backpack'\n    at Context.eval (webpack://anst_cypress_project/./cypress/e2e/SwagLabsPageFunctionality.spec.cy.js:76:44)"},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555695629,"name":"visit /","stop":1744555696381},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555696381,"name":"get [data-test=\"username\"]","stop":1744555696386},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555696736,"name":"get [data-test=\"password\"]","stop":1744555696742},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555697065,"name":"get #login-button","stop":1744555697069},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555697069,"name":"click","stop":1744555697265},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555697265,"name":"new url https://www.saucedemo.com/inventory.html","stop":1744555697265}],"attachments":[],"parameters":[],"start":1744555695614,"name":"loginAs (\"standard\")","stop":1744555697265},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555697265,"name":"url","stop":1744555697272},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[{"name":"actual","value":"https://www.saucedemo.com/inventory.html"}],"start":1744555697272,"name":"assert expected **https://www.saucedemo.com/inventory.html** to include **/inventory.html**","stop":1744555697272},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555697272,"name":"contains Swag Labs","stop":1744555697308},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555697308,"name":"assert expected **<div.app_logo>** to be **visible**","stop":1744555697308},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555697308,"name":"contains Products","stop":1744555697318},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555697318,"name":"assert expected **<span.title>** to be **visible**","stop":1744555697318},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555697318,"name":"contains Sauce Labs Backpack","stop":1744555697347},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555697347,"name":"assert expected **<a#item_4_title_link>** to be **visible**","stop":1744555697347},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555697347,"name":"contains Sauce Labs Bike Light","stop":1744555697371},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555697371,"name":"assert expected **<a#item_0_title_link>** to be **visible**","stop":1744555697371},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555697371,"name":"contains Sauce Labs Bolt T-Shirt","stop":1744555697411},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555697411,"name":"assert expected **<a#item_1_title_link>** to be **visible**","stop":1744555697411},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555697411,"name":"contains Sauce Labs Fleece Jacket","stop":1744555697429},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555697429,"name":"assert expected **<a#item_5_title_link>** to be **visible**","stop":1744555697429},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555697429,"name":"contains Sauce Labs Onesie","stop":1744555697455},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555697455,"name":"assert expected **<a#item_2_title_link>** to be **visible**","stop":1744555697455},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555697455,"name":"get #react-burger-menu-btn","stop":1744555697460},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555697460,"name":"click","stop":1744555697729},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555697729,"name":"get [data-test=\"inventory-sidebar-link\"]","stop":1744555697874},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555697874,"name":"assert expected **<a#inventory_sidebar_link.bm-item.menu-item>** to be **visible**","stop":1744555697874},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555697874,"name":"get [data-test=\"about-sidebar-link\"]","stop":1744555697886},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555697886,"name":"assert expected **<a#about_sidebar_link.bm-item.menu-item>** to be **visible**","stop":1744555697886},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555697886,"name":"get [data-test=\"logout-sidebar-link\"]","stop":1744555697902},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555697902,"name":"assert expected **<a#logout_sidebar_link.bm-item.menu-item>** to be **visible**","stop":1744555697902},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555697902,"name":"get [data-test=\"reset-sidebar-link\"]","stop":1744555697912},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555697912,"name":"assert expected **<a#reset_sidebar_link.bm-item.menu-item>** to be **visible**","stop":1744555697912},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555697912,"name":"get [data-test=\"add-to-cart-sauce-labs-backpack\"]","stop":1744555697919},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555697919,"name":"click","stop":1744555698027},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555698027,"name":"get [data-test=\"add-to-cart-sauce-labs-bike-light\"]","stop":1744555698031},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555698032,"name":"click","stop":1744555698126},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555698126,"name":"get [data-test=\"add-to-cart-sauce-labs-bolt-t-shirt\"]","stop":1744555698131},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555698131,"name":"click","stop":1744555698228},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555698228,"name":"get [data-test=\"add-to-cart-sauce-labs-fleece-jacket\"]","stop":1744555698237},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555698237,"name":"click","stop":1744555698329},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555698329,"name":"get [data-test=\"add-to-cart-sauce-labs-onesie\"]","stop":1744555698332},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555698332,"name":"click","stop":1744555698477},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555698477,"name":"get [data-test=\"shopping-cart-link\"]","stop":1744555699561},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555699561,"name":"assert expected **<a.shopping_cart_link>** to contain **'5'**","stop":1744555699561},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555699561,"name":"assert expected **<a.shopping_cart_link>** to be **visible**","stop":1744555699561},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555699561,"name":"click","stop":1744555699704},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555699704,"name":"new url https://www.saucedemo.com/cart.html","stop":1744555699704},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555699704,"name":"url","stop":1744555699713},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[{"name":"actual","value":"https://www.saucedemo.com/cart.html"}],"start":1744555699713,"name":"assert expected **https://www.saucedemo.com/cart.html** to include **/cart.html**","stop":1744555699713},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555699713,"name":"get .shopping_cart_badge","stop":1744555699723},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[{"name":"actual","value":"5"},{"name":"expected","value":"5"}],"start":1744555699723,"name":"assert expected **<span.shopping_cart_badge>** to contain text **'5'**","stop":1744555699723},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555699723,"name":"get #checkout","stop":1744555699736},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555699736,"name":"assert expected **<button#checkout.btn.btn_action.btn_medium.checkout_button.>** to be **visible**","stop":1744555699736},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555699736,"name":"click","stop":1744555699827},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555699827,"name":"new url https://www.saucedemo.com/checkout-step-one.html","stop":1744555699827},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555699827,"name":"get [data-test=\"firstName\"]","stop":1744555699835},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555699834,"name":"assert expected **<input#first-name.input_error.form_input>** to be **visible**","stop":1744555699834},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555699835,"name":"type Ifeanyi","stop":1744555700090},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555700090,"name":"get [data-test=\"lastName\"]","stop":1744555700106},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555700106,"name":"assert expected **<input#last-name.input_error.form_input>** to be **visible**","stop":1744555700106},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555700106,"name":"type Alfred","stop":1744555700349},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555700349,"name":"get [data-test=\"postalCode\"]","stop":1744555700357},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555700357,"name":"assert expected **<input#postal-code.input_error.form_input>** to be **visible**","stop":1744555700357},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555700357,"name":"type 012345","stop":1744555700616},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555700615,"name":"request","stop":1744555700615},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555700616,"name":"request","stop":1744555700616},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555700616,"name":"get [data-test=\"continue\"]","stop":1744555700629},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555700628,"name":"assert expected **<input#continue.submit-button.btn.btn_primary.cart_button.btn_action>** to be **visible**","stop":1744555700628},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555700629,"name":"click","stop":1744555700723},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555700723,"name":"new url https://www.saucedemo.com/checkout-step-two.html","stop":1744555700723},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555700723,"name":"url","stop":1744555700728},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[{"name":"actual","value":"https://www.saucedemo.com/checkout-step-two.html"}],"start":1744555700728,"name":"assert expected **https://www.saucedemo.com/checkout-step-two.html** to include **/checkout-step-two.html**","stop":1744555700728},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555700728,"name":"get .summary_info","stop":1744555700735},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555700735,"name":"assert expected **<div.summary_info>** to be **visible**","stop":1744555700735},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555700735,"name":"get .summary_subtotal_label","stop":1744555700748},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555700747,"name":"assert expected **<div.summary_subtotal_label>** to be **visible**","stop":1744555700747},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555700748,"name":"get .summary_tax_label","stop":1744555700757},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555700757,"name":"assert expected **<div.summary_tax_label>** to be **visible**","stop":1744555700757},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555700757,"name":"get .summary_total_label","stop":1744555700764},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555700764,"name":"assert expected **<div.summary_total_label>** to be **visible**","stop":1744555700764},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555700764,"name":"get [data-test=\"total-label\"]","stop":1744555700774},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555700774,"name":"assert expected **<div.summary_total_label>** to be **visible**","stop":1744555700774},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555700774,"name":"get [data-test=\"payment-info-value\"]","stop":1744555700785},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555700785,"name":"assert expected **<div.summary_value_label>** to be **visible**","stop":1744555700785},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555700785,"name":"get .summary_info","stop":1744555704840},{"status":"failed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744555704840,"name":"assert expected **<div.summary_info>** to contain **Sauce Labs Backpack**","stop":1744555704840}],"attachments":[],"parameters":[],"labels":[{"name":"package","value":"cypress.e2e.SwagLabsPageFunctionality.spec.cy.js"},{"name":"suite","value":"Page Functionality Test for Saucedemo Project"}],"links":[],"start":1744555695427,"name":"Inventory Page Functionality Test for Saucedemo website","fullName":"Inventory Page Functionality Test for Saucedemo website","stop":1744555704841}
+{
+  "uuid": "2401392e-19b2-4882-bab1-c9042c5db5a8",
+  "historyId": "370d52f131db9e5f755dc6ed26e6d06d",
+  "status": "failed",
+  "statusDetails": {
+    "message": "Timed out retrying after 4000ms: expected '<div.summary_info>' to contain 'Sauce Labs Backpack'",
+    "trace": "AssertionError: Timed out retrying after 4000ms: expected '<div.summary_info>' to contain 'Sauce Labs Backpack'\n    at Context.eval (webpack://anst_cypress_project/./cypress/e2e/SwagLabsPageFunctionality.spec.cy.js:76:44)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1744555695629,
+          "name": "visit /",
+          "stop": 1744555696381
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1744555696381,
+          "name": "get [data-test=\"username\"]",
+          "stop": 1744555696386
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1744555696736,
+          "name": "get [data-test=\"password\"]",
+          "stop": 1744555696742
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1744555697065,
+          "name": "get #login-button",
+          "stop": 1744555697069
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1744555697069,
+          "name": "click",
+          "stop": 1744555697265
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1744555697265,
+          "name": "new url https://www.saucedemo.com/inventory.html",
+          "stop": 1744555697265
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555695614,
+      "name": "loginAs (\"standard\")",
+      "stop": 1744555697265
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555697265,
+      "name": "url",
+      "stop": 1744555697272
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "actual",
+          "value": "https://www.saucedemo.com/inventory.html"
+        }
+      ],
+      "start": 1744555697272,
+      "name": "assert expected **https://www.saucedemo.com/inventory.html** to include **/inventory.html**",
+      "stop": 1744555697272
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555697272,
+      "name": "contains Swag Labs",
+      "stop": 1744555697308
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555697308,
+      "name": "assert expected **<div.app_logo>** to be **visible**",
+      "stop": 1744555697308
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555697308,
+      "name": "contains Products",
+      "stop": 1744555697318
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555697318,
+      "name": "assert expected **<span.title>** to be **visible**",
+      "stop": 1744555697318
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555697318,
+      "name": "contains Sauce Labs Backpack",
+      "stop": 1744555697347
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555697347,
+      "name": "assert expected **<a#item_4_title_link>** to be **visible**",
+      "stop": 1744555697347
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555697347,
+      "name": "contains Sauce Labs Bike Light",
+      "stop": 1744555697371
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555697371,
+      "name": "assert expected **<a#item_0_title_link>** to be **visible**",
+      "stop": 1744555697371
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555697371,
+      "name": "contains Sauce Labs Bolt T-Shirt",
+      "stop": 1744555697411
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555697411,
+      "name": "assert expected **<a#item_1_title_link>** to be **visible**",
+      "stop": 1744555697411
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555697411,
+      "name": "contains Sauce Labs Fleece Jacket",
+      "stop": 1744555697429
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555697429,
+      "name": "assert expected **<a#item_5_title_link>** to be **visible**",
+      "stop": 1744555697429
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555697429,
+      "name": "contains Sauce Labs Onesie",
+      "stop": 1744555697455
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555697455,
+      "name": "assert expected **<a#item_2_title_link>** to be **visible**",
+      "stop": 1744555697455
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555697455,
+      "name": "get #react-burger-menu-btn",
+      "stop": 1744555697460
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555697460,
+      "name": "click",
+      "stop": 1744555697729
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555697729,
+      "name": "get [data-test=\"inventory-sidebar-link\"]",
+      "stop": 1744555697874
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555697874,
+      "name": "assert expected **<a#inventory_sidebar_link.bm-item.menu-item>** to be **visible**",
+      "stop": 1744555697874
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555697874,
+      "name": "get [data-test=\"about-sidebar-link\"]",
+      "stop": 1744555697886
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555697886,
+      "name": "assert expected **<a#about_sidebar_link.bm-item.menu-item>** to be **visible**",
+      "stop": 1744555697886
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555697886,
+      "name": "get [data-test=\"logout-sidebar-link\"]",
+      "stop": 1744555697902
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555697902,
+      "name": "assert expected **<a#logout_sidebar_link.bm-item.menu-item>** to be **visible**",
+      "stop": 1744555697902
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555697902,
+      "name": "get [data-test=\"reset-sidebar-link\"]",
+      "stop": 1744555697912
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555697912,
+      "name": "assert expected **<a#reset_sidebar_link.bm-item.menu-item>** to be **visible**",
+      "stop": 1744555697912
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555697912,
+      "name": "get [data-test=\"add-to-cart-sauce-labs-backpack\"]",
+      "stop": 1744555697919
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555697919,
+      "name": "click",
+      "stop": 1744555698027
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555698027,
+      "name": "get [data-test=\"add-to-cart-sauce-labs-bike-light\"]",
+      "stop": 1744555698031
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555698032,
+      "name": "click",
+      "stop": 1744555698126
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555698126,
+      "name": "get [data-test=\"add-to-cart-sauce-labs-bolt-t-shirt\"]",
+      "stop": 1744555698131
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555698131,
+      "name": "click",
+      "stop": 1744555698228
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555698228,
+      "name": "get [data-test=\"add-to-cart-sauce-labs-fleece-jacket\"]",
+      "stop": 1744555698237
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555698237,
+      "name": "click",
+      "stop": 1744555698329
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555698329,
+      "name": "get [data-test=\"add-to-cart-sauce-labs-onesie\"]",
+      "stop": 1744555698332
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555698332,
+      "name": "click",
+      "stop": 1744555698477
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555698477,
+      "name": "get [data-test=\"shopping-cart-link\"]",
+      "stop": 1744555699561
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555699561,
+      "name": "assert expected **<a.shopping_cart_link>** to contain **'5'**",
+      "stop": 1744555699561
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555699561,
+      "name": "assert expected **<a.shopping_cart_link>** to be **visible**",
+      "stop": 1744555699561
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555699561,
+      "name": "click",
+      "stop": 1744555699704
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555699704,
+      "name": "new url https://www.saucedemo.com/cart.html",
+      "stop": 1744555699704
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555699704,
+      "name": "url",
+      "stop": 1744555699713
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        { "name": "actual", "value": "https://www.saucedemo.com/cart.html" }
+      ],
+      "start": 1744555699713,
+      "name": "assert expected **https://www.saucedemo.com/cart.html** to include **/cart.html**",
+      "stop": 1744555699713
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555699713,
+      "name": "get .shopping_cart_badge",
+      "stop": 1744555699723
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        { "name": "actual", "value": "5" },
+        { "name": "expected", "value": "5" }
+      ],
+      "start": 1744555699723,
+      "name": "assert expected **<span.shopping_cart_badge>** to contain text **'5'**",
+      "stop": 1744555699723
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555699723,
+      "name": "get #checkout",
+      "stop": 1744555699736
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555699736,
+      "name": "assert expected **<button#checkout.btn.btn_action.btn_medium.checkout_button.>** to be **visible**",
+      "stop": 1744555699736
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555699736,
+      "name": "click",
+      "stop": 1744555699827
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555699827,
+      "name": "new url https://www.saucedemo.com/checkout-step-one.html",
+      "stop": 1744555699827
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555699827,
+      "name": "get [data-test=\"firstName\"]",
+      "stop": 1744555699835
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555699834,
+      "name": "assert expected **<input#first-name.input_error.form_input>** to be **visible**",
+      "stop": 1744555699834
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555699835,
+      "name": "type Ifeanyi",
+      "stop": 1744555700090
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555700090,
+      "name": "get [data-test=\"lastName\"]",
+      "stop": 1744555700106
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555700106,
+      "name": "assert expected **<input#last-name.input_error.form_input>** to be **visible**",
+      "stop": 1744555700106
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555700106,
+      "name": "type Alfred",
+      "stop": 1744555700349
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555700349,
+      "name": "get [data-test=\"postalCode\"]",
+      "stop": 1744555700357
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555700357,
+      "name": "assert expected **<input#postal-code.input_error.form_input>** to be **visible**",
+      "stop": 1744555700357
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555700357,
+      "name": "type 012345",
+      "stop": 1744555700616
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555700615,
+      "name": "request",
+      "stop": 1744555700615
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555700616,
+      "name": "request",
+      "stop": 1744555700616
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555700616,
+      "name": "get [data-test=\"continue\"]",
+      "stop": 1744555700629
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555700628,
+      "name": "assert expected **<input#continue.submit-button.btn.btn_primary.cart_button.btn_action>** to be **visible**",
+      "stop": 1744555700628
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555700629,
+      "name": "click",
+      "stop": 1744555700723
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555700723,
+      "name": "new url https://www.saucedemo.com/checkout-step-two.html",
+      "stop": 1744555700723
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555700723,
+      "name": "url",
+      "stop": 1744555700728
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "actual",
+          "value": "https://www.saucedemo.com/checkout-step-two.html"
+        }
+      ],
+      "start": 1744555700728,
+      "name": "assert expected **https://www.saucedemo.com/checkout-step-two.html** to include **/checkout-step-two.html**",
+      "stop": 1744555700728
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555700728,
+      "name": "get .summary_info",
+      "stop": 1744555700735
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555700735,
+      "name": "assert expected **<div.summary_info>** to be **visible**",
+      "stop": 1744555700735
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555700735,
+      "name": "get .summary_subtotal_label",
+      "stop": 1744555700748
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555700747,
+      "name": "assert expected **<div.summary_subtotal_label>** to be **visible**",
+      "stop": 1744555700747
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555700748,
+      "name": "get .summary_tax_label",
+      "stop": 1744555700757
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555700757,
+      "name": "assert expected **<div.summary_tax_label>** to be **visible**",
+      "stop": 1744555700757
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555700757,
+      "name": "get .summary_total_label",
+      "stop": 1744555700764
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555700764,
+      "name": "assert expected **<div.summary_total_label>** to be **visible**",
+      "stop": 1744555700764
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555700764,
+      "name": "get [data-test=\"total-label\"]",
+      "stop": 1744555700774
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555700774,
+      "name": "assert expected **<div.summary_total_label>** to be **visible**",
+      "stop": 1744555700774
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555700774,
+      "name": "get [data-test=\"payment-info-value\"]",
+      "stop": 1744555700785
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555700785,
+      "name": "assert expected **<div.summary_value_label>** to be **visible**",
+      "stop": 1744555700785
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555700785,
+      "name": "get .summary_info",
+      "stop": 1744555704840
+    },
+    {
+      "status": "failed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744555704840,
+      "name": "assert expected **<div.summary_info>** to contain **Sauce Labs Backpack**",
+      "stop": 1744555704840
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "labels": [
+    {
+      "name": "package",
+      "value": "cypress.e2e.SwagLabsPageFunctionality.spec.cy.js"
+    },
+    {
+      "name": "suite",
+      "value": "Page Functionality Test for Saucedemo Project"
+    }
+  ],
+  "links": [],
+  "start": 1744555695427,
+  "name": "Inventory Page Functionality Test for Saucedemo website",
+  "fullName": "Inventory Page Functionality Test for Saucedemo website",
+  "stop": 1744555704841
+}

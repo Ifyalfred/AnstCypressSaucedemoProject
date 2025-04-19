@@ -1,1 +1,51 @@
-{"uuid":"d24e4918-5812-4708-b92a-97ba450a3eec","historyId":"370d52f131db9e5f755dc6ed26e6d06d","status":"failed","statusDetails":{"message":"Timed out retrying after 4000ms: expected 'about:blank' to include '/inventory.html'","trace":"AssertionError: Timed out retrying after 4000ms: expected 'about:blank' to include '/inventory.html'\n    at Context.eval (webpack://anst_cypress_project/./cypress/e2e/SwagLabsPageFunctionality.spec.cy.js:44:29)"},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744982529842,"name":"url","stop":1744982533848},{"status":"failed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[{"name":"actual","value":"about:blank"}],"start":1744982533848,"name":"assert expected **about:blank** to include **/inventory.html**","stop":1744982533848}],"attachments":[],"parameters":[],"labels":[{"name":"package","value":"cypress.e2e.SwagLabsPageFunctionality.spec.cy.js"},{"name":"suite","value":"Page Functionality Test for Saucedemo Project"}],"links":[],"start":1744982529665,"name":"Inventory Page Functionality Test for Saucedemo website","fullName":"Inventory Page Functionality Test for Saucedemo website","stop":1744982533848}
+{
+  "uuid": "d24e4918-5812-4708-b92a-97ba450a3eec",
+  "historyId": "370d52f131db9e5f755dc6ed26e6d06d",
+  "status": "failed",
+  "statusDetails": {
+    "message": "Timed out retrying after 4000ms: expected 'about:blank' to include '/inventory.html'",
+    "trace": "AssertionError: Timed out retrying after 4000ms: expected 'about:blank' to include '/inventory.html'\n    at Context.eval (webpack://anst_cypress_project/./cypress/e2e/SwagLabsPageFunctionality.spec.cy.js:44:29)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744982529842,
+      "name": "url",
+      "stop": 1744982533848
+    },
+    {
+      "status": "failed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [{ "name": "actual", "value": "about:blank" }],
+      "start": 1744982533848,
+      "name": "assert expected **about:blank** to include **/inventory.html**",
+      "stop": 1744982533848
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "labels": [
+    {
+      "name": "package",
+      "value": "cypress.e2e.SwagLabsPageFunctionality.spec.cy.js"
+    },
+    {
+      "name": "suite",
+      "value": "Page Functionality Test for Saucedemo Project"
+    }
+  ],
+  "links": [],
+  "start": 1744982529665,
+  "name": "Inventory Page Functionality Test for Saucedemo website",
+  "fullName": "Inventory Page Functionality Test for Saucedemo website",
+  "stop": 1744982533848
+}

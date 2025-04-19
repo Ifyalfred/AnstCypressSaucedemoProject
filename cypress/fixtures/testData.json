@@ -1,95 +1,71 @@
 {
-    "LoginPage": 
-    {
-        "username": "standard_user",
-        "password": "secret_sauce"
-    },
-    
+  "LoginPage": {
+    "username": "standard_user",
+    "password": "secret_sauce"
+  },
 
-    "lockedoutPage": 
-    {
-        "username": "locked_out_user",
-        "password": "secret_sauce"
-    },
+  "lockedoutPage": {
+    "username": "locked_out_user",
+    "password": "secret_sauce"
+  },
 
-    "problemPage": 
-    {
-        "username": "problem_user",
-        "password": "secret_sauce"
-    },
+  "problemPage": {
+    "username": "problem_user",
+    "password": "secret_sauce"
+  },
 
+  "InventoryPage": {
+    "username": "standard_user",
+    "password": "secret_sauce"
+  },
 
+  "CheckoutPage": {
+    "username": "standard_user",
+    "password": "secret_sauce"
+  },
 
-    "InventoryPage": 
-    {
-        "username": "standard_user",
-        "password": "secret_sauce"
-    },
+  "CheckoutOverviewPage": {
+    "username": "standard_user",
+    "password": "secret_sauce"
+  },
 
-    "CheckoutPage": 
-    {
-        "username": "standard_user",
-        "password": "secret_sauce"
-    },
+  "CheckoutCompletePage": {
+    "username": "standard_user",
+    "password": "secret_sauce"
+  },
 
-    "CheckoutOverviewPage": 
-    {
-        "username": "standard_user",
-        "password": "secret_sauce"
-    },
+  "product": {
+    "username": "standard_user",
+    "password": "secret_sauce"
+  },
 
-    "CheckoutCompletePage": 
-    {
-        "username": "standard_user",
-        "password": "secret_sauce"
-    },
+  "cart": {
+    "username": "standard_user",
+    "password": "secret_sauce"
+  },
 
-    "product": 
-    {
-        "username": "standard_user",
-        "password": "secret_sauce"
-    },
+  "menu": {
+    "username": "standard_user",
+    "password": "secret_sauce"
+  },
 
-    "cart": 
-    {
-        "username": "standard_user",
-        "password": "secret_sauce"
-    },
+  "orderConfirmation": {
+    "username": "standard_user",
+    "password": "secret_sauce"
+  },
 
+  "orderNumber": {
+    "username": "standard_user",
+    "password": "secret_sauce"
+  },
 
-    "menu": 
-    {
-        "username": "standard_user",
-        "password": "secret_sauce"
-    },
+  "orderDetails": {
+    "username": "standard_user",
+    "password": "secret_sauce"
+  },
 
-
-    "orderConfirmation": 
-    {
-        "username": "standard_user",
-        "password": "secret_sauce"
-    },
-
-    "orderNumber": 
-    {
-        "username": "standard_user",
-        "password": "secret_sauce"
-    },
-
-
-    "orderDetails": 
-    {
-        "username": "standard_user",
-        "password": "secret_sauce"
-    },
-
-
-    "orderSummary": 
-    {
-        "username": "standard_user",
-        "password": "secret_sauce"
-    }
-    
+  "orderSummary": {
+    "username": "standard_user",
+    "password": "secret_sauce"
+  }
 }
-
-

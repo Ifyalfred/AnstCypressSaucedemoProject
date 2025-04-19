@@ -1,1 +1,114 @@
-{"uuid":"168784ae-f138-4140-9086-58df50fa4164","historyId":"c24f16e7e796aa8661902e57b8f8b29f","status":"passed","statusDetails":null,"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744995828733,"name":"visit /","stop":1744995829043}],"attachments":[],"parameters":[],"start":1744995828715,"name":"\"before each\" hook","stop":1744995829044},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744995829046,"name":"url","stop":1744995829054},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[{"name":"actual","value":"https://www.saucedemo.com/"}],"start":1744995829054,"name":"assert expected **https://www.saucedemo.com/** to include **saucedemo.com**","stop":1744995829054},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744995829054,"name":"contains Swag Labs","stop":1744995829071},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744995829071,"name":"assert expected **<div.login_logo>** to be **visible**","stop":1744995829071},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744995829072,"name":"get #login-button","stop":1744995829079},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744995829079,"name":"assert expected **<input#login-button.submit-button.btn_action>** to be **visible**","stop":1744995829079}],"attachments":[],"parameters":[],"labels":[{"name":"package","value":"cypress.e2e.login.spec.cy.js"},{"name":"suite","value":"Login Test for Saucedemo Project with Multiple Users"}],"links":[],"start":1744995828713,"name":"Test for Successful Navigation to website","fullName":"Test for Successful Navigation to website","stop":1744995829081}
+{
+  "uuid": "168784ae-f138-4140-9086-58df50fa4164",
+  "historyId": "c24f16e7e796aa8661902e57b8f8b29f",
+  "status": "passed",
+  "statusDetails": null,
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1744995828733,
+          "name": "visit /",
+          "stop": 1744995829043
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744995828715,
+      "name": "\"before each\" hook",
+      "stop": 1744995829044
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744995829046,
+      "name": "url",
+      "stop": 1744995829054
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        { "name": "actual", "value": "https://www.saucedemo.com/" }
+      ],
+      "start": 1744995829054,
+      "name": "assert expected **https://www.saucedemo.com/** to include **saucedemo.com**",
+      "stop": 1744995829054
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744995829054,
+      "name": "contains Swag Labs",
+      "stop": 1744995829071
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744995829071,
+      "name": "assert expected **<div.login_logo>** to be **visible**",
+      "stop": 1744995829071
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744995829072,
+      "name": "get #login-button",
+      "stop": 1744995829079
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744995829079,
+      "name": "assert expected **<input#login-button.submit-button.btn_action>** to be **visible**",
+      "stop": 1744995829079
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "labels": [
+    { "name": "package", "value": "cypress.e2e.login.spec.cy.js" },
+    {
+      "name": "suite",
+      "value": "Login Test for Saucedemo Project with Multiple Users"
+    }
+  ],
+  "links": [],
+  "start": 1744995828713,
+  "name": "Test for Successful Navigation to website",
+  "fullName": "Test for Successful Navigation to website",
+  "stop": 1744995829081
+}

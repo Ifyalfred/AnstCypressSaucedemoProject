@@ -1,1 +1,37 @@
-{"uuid":"34b8d828-854f-40c0-8fcc-77a1798b48da","historyId":"c243474711dbb62cb40565fc4229d478","status":"passed","statusDetails":null,"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743745248555,"name":"visit /","stop":1743745249152}],"attachments":[],"parameters":[],"labels":[{"name":"package","value":"cypress.e2e.SwagLabsPageFunctionality.spec.cy.js"},{"name":"suite","value":"Page Functionality Test for Saucedemo Project"}],"links":[],"start":1743745248544,"name":"Test for Successful Navigation to Login Page of Saucedemo website","fullName":"Test for Successful Navigation to Login Page of Saucedemo website","stop":1743745249161}
+{
+  "uuid": "34b8d828-854f-40c0-8fcc-77a1798b48da",
+  "historyId": "c243474711dbb62cb40565fc4229d478",
+  "status": "passed",
+  "statusDetails": null,
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743745248555,
+      "name": "visit /",
+      "stop": 1743745249152
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "labels": [
+    {
+      "name": "package",
+      "value": "cypress.e2e.SwagLabsPageFunctionality.spec.cy.js"
+    },
+    {
+      "name": "suite",
+      "value": "Page Functionality Test for Saucedemo Project"
+    }
+  ],
+  "links": [],
+  "start": 1743745248544,
+  "name": "Test for Successful Navigation to Login Page of Saucedemo website",
+  "fullName": "Test for Successful Navigation to Login Page of Saucedemo website",
+  "stop": 1743745249161
+}

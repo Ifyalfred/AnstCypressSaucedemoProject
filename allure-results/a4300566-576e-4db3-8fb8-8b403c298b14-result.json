@@ -1,1 +1,56 @@
-{"uuid":"a4300566-576e-4db3-8fb8-8b403c298b14","historyId":"e58c32497e2beb121886803c005c3c9f","status":"passed","statusDetails":null,"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744986945101,"name":"visit /","stop":1744986945430},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744986945430,"name":"contains Swag Labs","stop":1744986945437},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744986945437,"name":"assert expected **<div.login_logo>** to be **visible**","stop":1744986945437}],"attachments":[],"parameters":[],"labels":[{"name":"package","value":"cypress.e2e.inventory.spec.cy.js"},{"name":"suite","value":"Page Functionality Test for Saucedemo Project"}],"links":[],"start":1744986945096,"name":" should successfully navigate to the Login Page","fullName":" should successfully navigate to the Login Page","stop":1744986945438}
+{
+  "uuid": "a4300566-576e-4db3-8fb8-8b403c298b14",
+  "historyId": "e58c32497e2beb121886803c005c3c9f",
+  "status": "passed",
+  "statusDetails": null,
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744986945101,
+      "name": "visit /",
+      "stop": 1744986945430
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744986945430,
+      "name": "contains Swag Labs",
+      "stop": 1744986945437
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744986945437,
+      "name": "assert expected **<div.login_logo>** to be **visible**",
+      "stop": 1744986945437
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "labels": [
+    { "name": "package", "value": "cypress.e2e.inventory.spec.cy.js" },
+    {
+      "name": "suite",
+      "value": "Page Functionality Test for Saucedemo Project"
+    }
+  ],
+  "links": [],
+  "start": 1744986945096,
+  "name": " should successfully navigate to the Login Page",
+  "fullName": " should successfully navigate to the Login Page",
+  "stop": 1744986945438
+}

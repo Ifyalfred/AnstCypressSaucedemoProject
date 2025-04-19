@@ -1,1 +1,332 @@
-{"uuid":"88b852ac-15f8-40e7-b28c-7a94e779a985","historyId":"370d52f131db9e5f755dc6ed26e6d06d","status":"failed","statusDetails":{"message":"Timed out retrying after 4000ms: expected '<a#inventory_sidebar_link.bm-item.menu-item>' to be 'visible'\n\nThis element `<a#inventory_sidebar_link.bm-item.menu-item>` is not visible because its ancestor has `position: fixed` CSS property and it is overflowed by other elements. How about scrolling to the element with `cy.scrollIntoView()`?","trace":"AssertionError: Timed out retrying after 4000ms: expected '<a#inventory_sidebar_link.bm-item.menu-item>' to be 'visible'\n\nThis element `<a#inventory_sidebar_link.bm-item.menu-item>` is not visible because its ancestor has `position: fixed` CSS property and it is overflowed by other elements. How about scrolling to the element with `cy.scrollIntoView()`?\n    at Context.eval (webpack://anst_cypress_project/./cypress/e2e/SwagLabsPageFunctionality.spec.cy.js:59:67)"},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744981292070,"name":"visit /","stop":1744981292372},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744981292372,"name":"get [data-test=\"username\"]","stop":1744981292377},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744981292695,"name":"get [data-test=\"password\"]","stop":1744981292698},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744981292988,"name":"get #login-button","stop":1744981292992},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744981292992,"name":"click","stop":1744981293382},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744981293382,"name":"new url https://www.saucedemo.com/inventory.html","stop":1744981293382}],"attachments":[],"parameters":[],"start":1744981292069,"name":"loginAs (\"standard\")","stop":1744981293382},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744981293382,"name":"url","stop":1744981293386},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[{"name":"actual","value":"https://www.saucedemo.com/inventory.html"}],"start":1744981293386,"name":"assert expected **https://www.saucedemo.com/inventory.html** to include **/inventory.html**","stop":1744981293386},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744981293386,"name":"contains Swag Labs","stop":1744981293393},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744981293393,"name":"assert expected **<div.app_logo>** to be **visible**","stop":1744981293393},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744981293393,"name":"contains Products","stop":1744981293425},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744981293425,"name":"assert expected **<span.title>** to be **visible**","stop":1744981293425},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744981293425,"name":"contains Sauce Labs Backpack","stop":1744981293506},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744981293506,"name":"assert expected **<a#item_4_title_link>** to be **visible**","stop":1744981293506},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744981293506,"name":"contains Sauce Labs Bike Light","stop":1744981293515},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744981293515,"name":"assert expected **<a#item_0_title_link>** to be **visible**","stop":1744981293515},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744981293515,"name":"contains Sauce Labs Bolt T-Shirt","stop":1744981293555},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744981293555,"name":"assert expected **<a#item_1_title_link>** to be **visible**","stop":1744981293555},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744981293555,"name":"contains Sauce Labs Fleece Jacket","stop":1744981293590},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744981293590,"name":"assert expected **<a#item_5_title_link>** to be **visible**","stop":1744981293590},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744981293590,"name":"contains Sauce Labs Onesie","stop":1744981293639},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744981293639,"name":"assert expected **<a#item_2_title_link>** to be **visible**","stop":1744981293639},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744981293639,"name":"get #react-burger-menu-btn","stop":1744981293641},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744981293641,"name":"click","stop":1744981293731},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744981293731,"name":"get [data-test=\"inventory-sidebar-link\"]","stop":1744981297744},{"status":"failed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744981297744,"name":"assert expected **<a#inventory_sidebar_link.bm-item.menu-item>** to be **visible**","stop":1744981297744}],"attachments":[],"parameters":[],"labels":[{"name":"package","value":"cypress.e2e.SwagLabsPageFunctionality.spec.cy.js"},{"name":"suite","value":"Page Functionality Test for Saucedemo Project"}],"links":[],"start":1744981291969,"name":"Inventory Page Functionality Test for Saucedemo website","fullName":"Inventory Page Functionality Test for Saucedemo website","stop":1744981297745}
+{
+  "uuid": "88b852ac-15f8-40e7-b28c-7a94e779a985",
+  "historyId": "370d52f131db9e5f755dc6ed26e6d06d",
+  "status": "failed",
+  "statusDetails": {
+    "message": "Timed out retrying after 4000ms: expected '<a#inventory_sidebar_link.bm-item.menu-item>' to be 'visible'\n\nThis element `<a#inventory_sidebar_link.bm-item.menu-item>` is not visible because its ancestor has `position: fixed` CSS property and it is overflowed by other elements. How about scrolling to the element with `cy.scrollIntoView()`?",
+    "trace": "AssertionError: Timed out retrying after 4000ms: expected '<a#inventory_sidebar_link.bm-item.menu-item>' to be 'visible'\n\nThis element `<a#inventory_sidebar_link.bm-item.menu-item>` is not visible because its ancestor has `position: fixed` CSS property and it is overflowed by other elements. How about scrolling to the element with `cy.scrollIntoView()`?\n    at Context.eval (webpack://anst_cypress_project/./cypress/e2e/SwagLabsPageFunctionality.spec.cy.js:59:67)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1744981292070,
+          "name": "visit /",
+          "stop": 1744981292372
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1744981292372,
+          "name": "get [data-test=\"username\"]",
+          "stop": 1744981292377
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1744981292695,
+          "name": "get [data-test=\"password\"]",
+          "stop": 1744981292698
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1744981292988,
+          "name": "get #login-button",
+          "stop": 1744981292992
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1744981292992,
+          "name": "click",
+          "stop": 1744981293382
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1744981293382,
+          "name": "new url https://www.saucedemo.com/inventory.html",
+          "stop": 1744981293382
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744981292069,
+      "name": "loginAs (\"standard\")",
+      "stop": 1744981293382
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744981293382,
+      "name": "url",
+      "stop": 1744981293386
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "actual",
+          "value": "https://www.saucedemo.com/inventory.html"
+        }
+      ],
+      "start": 1744981293386,
+      "name": "assert expected **https://www.saucedemo.com/inventory.html** to include **/inventory.html**",
+      "stop": 1744981293386
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744981293386,
+      "name": "contains Swag Labs",
+      "stop": 1744981293393
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744981293393,
+      "name": "assert expected **<div.app_logo>** to be **visible**",
+      "stop": 1744981293393
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744981293393,
+      "name": "contains Products",
+      "stop": 1744981293425
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744981293425,
+      "name": "assert expected **<span.title>** to be **visible**",
+      "stop": 1744981293425
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744981293425,
+      "name": "contains Sauce Labs Backpack",
+      "stop": 1744981293506
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744981293506,
+      "name": "assert expected **<a#item_4_title_link>** to be **visible**",
+      "stop": 1744981293506
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744981293506,
+      "name": "contains Sauce Labs Bike Light",
+      "stop": 1744981293515
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744981293515,
+      "name": "assert expected **<a#item_0_title_link>** to be **visible**",
+      "stop": 1744981293515
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744981293515,
+      "name": "contains Sauce Labs Bolt T-Shirt",
+      "stop": 1744981293555
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744981293555,
+      "name": "assert expected **<a#item_1_title_link>** to be **visible**",
+      "stop": 1744981293555
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744981293555,
+      "name": "contains Sauce Labs Fleece Jacket",
+      "stop": 1744981293590
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744981293590,
+      "name": "assert expected **<a#item_5_title_link>** to be **visible**",
+      "stop": 1744981293590
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744981293590,
+      "name": "contains Sauce Labs Onesie",
+      "stop": 1744981293639
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744981293639,
+      "name": "assert expected **<a#item_2_title_link>** to be **visible**",
+      "stop": 1744981293639
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744981293639,
+      "name": "get #react-burger-menu-btn",
+      "stop": 1744981293641
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744981293641,
+      "name": "click",
+      "stop": 1744981293731
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744981293731,
+      "name": "get [data-test=\"inventory-sidebar-link\"]",
+      "stop": 1744981297744
+    },
+    {
+      "status": "failed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744981297744,
+      "name": "assert expected **<a#inventory_sidebar_link.bm-item.menu-item>** to be **visible**",
+      "stop": 1744981297744
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "labels": [
+    {
+      "name": "package",
+      "value": "cypress.e2e.SwagLabsPageFunctionality.spec.cy.js"
+    },
+    {
+      "name": "suite",
+      "value": "Page Functionality Test for Saucedemo Project"
+    }
+  ],
+  "links": [],
+  "start": 1744981291969,
+  "name": "Inventory Page Functionality Test for Saucedemo website",
+  "fullName": "Inventory Page Functionality Test for Saucedemo website",
+  "stop": 1744981297745
+}

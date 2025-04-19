@@ -1,1 +1,7 @@
-[{"values":["Chrome"],"name":"Browser"},{"values":["123.0"],"name":"Browser.Version"},{"values":["Windows 11"],"name":"OS"},{"values":["Staging"],"name":"Environment"},{"values":["14.2.0"],"name":"Cypress.Version"}]
+[
+  { "values": ["Chrome"], "name": "Browser" },
+  { "values": ["123.0"], "name": "Browser.Version" },
+  { "values": ["Windows 11"], "name": "OS" },
+  { "values": ["Staging"], "name": "Environment" },
+  { "values": ["14.2.0"], "name": "Cypress.Version" }
+]

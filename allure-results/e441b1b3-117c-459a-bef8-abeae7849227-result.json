@@ -1,1 +1,374 @@
-{"uuid":"e441b1b3-117c-459a-bef8-abeae7849227","historyId":"7532cc19ad0bd94fd9047d4124fc0172","status":"passed","statusDetails":null,"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743611830422,"name":"visit /","stop":1743611851362},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743611851362,"name":"request","stop":1743611851362},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743611851362,"name":"request","stop":1743611851362},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743611851363,"name":"get [data-test=\"username\"]","stop":1743611851495},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743611851496,"name":"type locked_out_user","stop":1743611852594}],"attachments":[],"parameters":[],"start":1743611851362,"name":"typeTextCommand (\"[data-test=\"username\"]\"; \"locked_out_user\")","stop":1743611852594},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743611852595,"name":"get [data-test=\"password\"]","stop":1743611852598},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743611852598,"name":"type secret_sauce","stop":1743611853404}],"attachments":[],"parameters":[],"start":1743611852595,"name":"typeTextCommand (\"[data-test=\"password\"]\"; \"secret_sauce\")","stop":1743611853404},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743611853404,"name":"wait 4000","stop":1743611857412},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743611857411,"name":"request","stop":1743611857411},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743611857411,"name":"request","stop":1743611857411},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743611857411,"name":"request","stop":1743611857411},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743611857411,"name":"request","stop":1743611857411},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743611857411,"name":"request","stop":1743611857411},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743611857411,"name":"request","stop":1743611857411},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743611857411,"name":"request","stop":1743611857411},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743611857411,"name":"request","stop":1743611857411},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743611857411,"name":"request","stop":1743611857411},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743611857411,"name":"request","stop":1743611857411},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743611857411,"name":"request","stop":1743611857411},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743611857411,"name":"request","stop":1743611857411},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743611857411,"name":"request","stop":1743611857411},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743611857411,"name":"request","stop":1743611857411},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743611857412,"name":"request","stop":1743611857412},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743611857412,"name":"request","stop":1743611857412},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743611857412,"name":"request","stop":1743611857412},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743611857412,"name":"request","stop":1743611857412},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743611857412,"name":"get #login-button","stop":1743611857416},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743611857416,"name":"click","stop":1743611857513},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743611857513,"name":"contains Epic sadface: Sorry, this user has been locked out.","stop":1743611857531},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743611857531,"name":"assert expected **<h3>** to be **visible**","stop":1743611857531}],"attachments":[],"parameters":[],"labels":[{"name":"package","value":"cypress.e2e.SwagLabsLoginTest.spec.cy.js"},{"name":"suite","value":"Login Test for Saucedemo"}],"links":[],"start":1743611830314,"name":"Test for unsuccessful login for locked out user","fullName":"Test for unsuccessful login for locked out user","stop":1743611857533}
+{
+  "uuid": "e441b1b3-117c-459a-bef8-abeae7849227",
+  "historyId": "7532cc19ad0bd94fd9047d4124fc0172",
+  "status": "passed",
+  "statusDetails": null,
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743611830422,
+      "name": "visit /",
+      "stop": 1743611851362
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743611851362,
+      "name": "request",
+      "stop": 1743611851362
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743611851362,
+      "name": "request",
+      "stop": 1743611851362
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1743611851363,
+          "name": "get [data-test=\"username\"]",
+          "stop": 1743611851495
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1743611851496,
+          "name": "type locked_out_user",
+          "stop": 1743611852594
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743611851362,
+      "name": "typeTextCommand (\"[data-test=\"username\"]\"; \"locked_out_user\")",
+      "stop": 1743611852594
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1743611852595,
+          "name": "get [data-test=\"password\"]",
+          "stop": 1743611852598
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1743611852598,
+          "name": "type secret_sauce",
+          "stop": 1743611853404
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743611852595,
+      "name": "typeTextCommand (\"[data-test=\"password\"]\"; \"secret_sauce\")",
+      "stop": 1743611853404
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743611853404,
+      "name": "wait 4000",
+      "stop": 1743611857412
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743611857411,
+      "name": "request",
+      "stop": 1743611857411
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743611857411,
+      "name": "request",
+      "stop": 1743611857411
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743611857411,
+      "name": "request",
+      "stop": 1743611857411
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743611857411,
+      "name": "request",
+      "stop": 1743611857411
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743611857411,
+      "name": "request",
+      "stop": 1743611857411
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743611857411,
+      "name": "request",
+      "stop": 1743611857411
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743611857411,
+      "name": "request",
+      "stop": 1743611857411
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743611857411,
+      "name": "request",
+      "stop": 1743611857411
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743611857411,
+      "name": "request",
+      "stop": 1743611857411
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743611857411,
+      "name": "request",
+      "stop": 1743611857411
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743611857411,
+      "name": "request",
+      "stop": 1743611857411
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743611857411,
+      "name": "request",
+      "stop": 1743611857411
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743611857411,
+      "name": "request",
+      "stop": 1743611857411
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743611857411,
+      "name": "request",
+      "stop": 1743611857411
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743611857412,
+      "name": "request",
+      "stop": 1743611857412
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743611857412,
+      "name": "request",
+      "stop": 1743611857412
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743611857412,
+      "name": "request",
+      "stop": 1743611857412
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743611857412,
+      "name": "request",
+      "stop": 1743611857412
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743611857412,
+      "name": "get #login-button",
+      "stop": 1743611857416
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743611857416,
+      "name": "click",
+      "stop": 1743611857513
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743611857513,
+      "name": "contains Epic sadface: Sorry, this user has been locked out.",
+      "stop": 1743611857531
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743611857531,
+      "name": "assert expected **<h3>** to be **visible**",
+      "stop": 1743611857531
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "labels": [
+    { "name": "package", "value": "cypress.e2e.SwagLabsLoginTest.spec.cy.js" },
+    { "name": "suite", "value": "Login Test for Saucedemo" }
+  ],
+  "links": [],
+  "start": 1743611830314,
+  "name": "Test for unsuccessful login for locked out user",
+  "fullName": "Test for unsuccessful login for locked out user",
+  "stop": 1743611857533
+}

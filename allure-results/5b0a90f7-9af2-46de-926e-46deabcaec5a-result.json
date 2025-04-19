@@ -1,1 +1,134 @@
-{"uuid":"5b0a90f7-9af2-46de-926e-46deabcaec5a","historyId":"40f065d773f69875279dc4a305f9f024","status":"failed","statusDetails":{"message":"Timed out retrying after 4000ms: expected 'https://www.saucedemo.com/inventory.html' to include '/checkout-step-two.html'","trace":"AssertionError: Timed out retrying after 4000ms: expected 'https://www.saucedemo.com/inventory.html' to include '/checkout-step-two.html'\n    at Context.eval (webpack://anst_cypress_project/./cypress/e2e/SwagLabsPageFunctionality.spec.cy.js:84:29)"},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744981564936,"name":"visit /","stop":1744981568015},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744981568015,"name":"get [data-test=\"username\"]","stop":1744981568022},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744981568340,"name":"get [data-test=\"password\"]","stop":1744981568343},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744981568647,"name":"get #login-button","stop":1744981568651},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744981568651,"name":"click","stop":1744981568795},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744981568795,"name":"new url https://www.saucedemo.com/inventory.html","stop":1744981568795}],"attachments":[],"parameters":[],"start":1744981564934,"name":"loginAs (\"standard\")","stop":1744981568795},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744981568795,"name":"url","stop":1744981572805},{"status":"failed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[{"name":"actual","value":"https://www.saucedemo.com/inventory.html"}],"start":1744981572805,"name":"assert expected **https://www.saucedemo.com/inventory.html** to include **/checkout-step-two.html**","stop":1744981572805}],"attachments":[],"parameters":[],"labels":[{"name":"package","value":"cypress.e2e.SwagLabsPageFunctionality.spec.cy.js"},{"name":"suite","value":"Page Functionality Test for Saucedemo Project"}],"links":[],"start":1744981564796,"name":" Checkout Page Functionality Test for Saucedemo website","fullName":" Checkout Page Functionality Test for Saucedemo website","stop":1744981572806}
+{
+  "uuid": "5b0a90f7-9af2-46de-926e-46deabcaec5a",
+  "historyId": "40f065d773f69875279dc4a305f9f024",
+  "status": "failed",
+  "statusDetails": {
+    "message": "Timed out retrying after 4000ms: expected 'https://www.saucedemo.com/inventory.html' to include '/checkout-step-two.html'",
+    "trace": "AssertionError: Timed out retrying after 4000ms: expected 'https://www.saucedemo.com/inventory.html' to include '/checkout-step-two.html'\n    at Context.eval (webpack://anst_cypress_project/./cypress/e2e/SwagLabsPageFunctionality.spec.cy.js:84:29)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1744981564936,
+          "name": "visit /",
+          "stop": 1744981568015
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1744981568015,
+          "name": "get [data-test=\"username\"]",
+          "stop": 1744981568022
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1744981568340,
+          "name": "get [data-test=\"password\"]",
+          "stop": 1744981568343
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1744981568647,
+          "name": "get #login-button",
+          "stop": 1744981568651
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1744981568651,
+          "name": "click",
+          "stop": 1744981568795
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1744981568795,
+          "name": "new url https://www.saucedemo.com/inventory.html",
+          "stop": 1744981568795
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744981564934,
+      "name": "loginAs (\"standard\")",
+      "stop": 1744981568795
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744981568795,
+      "name": "url",
+      "stop": 1744981572805
+    },
+    {
+      "status": "failed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "actual",
+          "value": "https://www.saucedemo.com/inventory.html"
+        }
+      ],
+      "start": 1744981572805,
+      "name": "assert expected **https://www.saucedemo.com/inventory.html** to include **/checkout-step-two.html**",
+      "stop": 1744981572805
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "labels": [
+    {
+      "name": "package",
+      "value": "cypress.e2e.SwagLabsPageFunctionality.spec.cy.js"
+    },
+    {
+      "name": "suite",
+      "value": "Page Functionality Test for Saucedemo Project"
+    }
+  ],
+  "links": [],
+  "start": 1744981564796,
+  "name": " Checkout Page Functionality Test for Saucedemo website",
+  "fullName": " Checkout Page Functionality Test for Saucedemo website",
+  "stop": 1744981572806
+}

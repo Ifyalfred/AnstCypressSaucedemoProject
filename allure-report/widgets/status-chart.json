@@ -1,1 +1,48 @@
-[{"uid":"af1f9b1099598438","name":"Test for unsuccessful login for locked out user","time":{"start":1743497062270,"stop":1743497068638,"duration":6368},"status":"passed","severity":"normal"},{"uid":"7cacc07ec445e191","name":"Test for Problem User Login and Checkout","time":{"start":1743497069098,"stop":1743497074045,"duration":4947},"status":"passed","severity":"normal"},{"uid":"d0a8e9cd9f9d8805","name":"Test for Performance Glitch User Login and Checkout","time":{"start":1743497074494,"stop":1743497084713,"duration":10219},"status":"passed","severity":"normal"},{"uid":"cb2ec56980e55138","name":"Test for Visual User Login and Checkout","time":{"start":1743497090187,"stop":1743497095069,"duration":4882},"status":"passed","severity":"normal"},{"uid":"45177e4100673a42","name":"Test for Successful Login and Checkout","time":{"start":1743497052986,"stop":1743497061704,"duration":8718},"status":"passed","severity":"normal"},{"uid":"2be23d470abd5374","name":"Test for Error User Login and Checkout","time":{"start":1743497085149,"stop":1743497090060,"duration":4911},"status":"passed","severity":"normal"}]
+[
+  {
+    "uid": "af1f9b1099598438",
+    "name": "Test for unsuccessful login for locked out user",
+    "time": { "start": 1743497062270, "stop": 1743497068638, "duration": 6368 },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "7cacc07ec445e191",
+    "name": "Test for Problem User Login and Checkout",
+    "time": { "start": 1743497069098, "stop": 1743497074045, "duration": 4947 },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "d0a8e9cd9f9d8805",
+    "name": "Test for Performance Glitch User Login and Checkout",
+    "time": {
+      "start": 1743497074494,
+      "stop": 1743497084713,
+      "duration": 10219
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "cb2ec56980e55138",
+    "name": "Test for Visual User Login and Checkout",
+    "time": { "start": 1743497090187, "stop": 1743497095069, "duration": 4882 },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "45177e4100673a42",
+    "name": "Test for Successful Login and Checkout",
+    "time": { "start": 1743497052986, "stop": 1743497061704, "duration": 8718 },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "2be23d470abd5374",
+    "name": "Test for Error User Login and Checkout",
+    "time": { "start": 1743497085149, "stop": 1743497090060, "duration": 4911 },
+    "status": "passed",
+    "severity": "normal"
+  }
+]

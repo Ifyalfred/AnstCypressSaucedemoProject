@@ -1,1 +1,145 @@
-{"uuid":"fddff395-180d-4b75-99b8-73e95906131b","historyId":"7532cc19ad0bd94fd9047d4124fc0172","status":"passed","statusDetails":null,"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743634407377,"name":"visit /","stop":1743634407653},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743634407655,"name":"visit /","stop":1743634408377},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743634408377,"name":"request","stop":1743634408377},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743634408377,"name":"request","stop":1743634408377},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743634408377,"name":"get [data-test=\"username\"]","stop":1743634408382},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743634408784,"name":"get [data-test=\"password\"]","stop":1743634408790},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743634409104,"name":"get #login-button","stop":1743634409107},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743634409107,"name":"click","stop":1743634409218}],"attachments":[],"parameters":[],"start":1743634407653,"name":"loginAs (\"lockedout\")","stop":1743634409218},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743634409218,"name":"contains Epic sadface: Sorry, this user has been locked out.","stop":1743634409232},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743634409232,"name":"assert expected **<h3>** to be **visible**","stop":1743634409232}],"attachments":[],"parameters":[],"labels":[{"name":"package","value":"cypress.e2e.SwagLabsLoginTest.spec.cy.js"},{"name":"suite","value":"Login Test for Saucedemo Project with Multiple Users"}],"links":[],"start":1743634407324,"name":"Test for unsuccessful login for locked out user","fullName":"Test for unsuccessful login for locked out user","stop":1743634409235}
+{
+  "uuid": "fddff395-180d-4b75-99b8-73e95906131b",
+  "historyId": "7532cc19ad0bd94fd9047d4124fc0172",
+  "status": "passed",
+  "statusDetails": null,
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743634407377,
+      "name": "visit /",
+      "stop": 1743634407653
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1743634407655,
+          "name": "visit /",
+          "stop": 1743634408377
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1743634408377,
+          "name": "request",
+          "stop": 1743634408377
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1743634408377,
+          "name": "request",
+          "stop": 1743634408377
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1743634408377,
+          "name": "get [data-test=\"username\"]",
+          "stop": 1743634408382
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1743634408784,
+          "name": "get [data-test=\"password\"]",
+          "stop": 1743634408790
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1743634409104,
+          "name": "get #login-button",
+          "stop": 1743634409107
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1743634409107,
+          "name": "click",
+          "stop": 1743634409218
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743634407653,
+      "name": "loginAs (\"lockedout\")",
+      "stop": 1743634409218
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743634409218,
+      "name": "contains Epic sadface: Sorry, this user has been locked out.",
+      "stop": 1743634409232
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743634409232,
+      "name": "assert expected **<h3>** to be **visible**",
+      "stop": 1743634409232
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "labels": [
+    { "name": "package", "value": "cypress.e2e.SwagLabsLoginTest.spec.cy.js" },
+    {
+      "name": "suite",
+      "value": "Login Test for Saucedemo Project with Multiple Users"
+    }
+  ],
+  "links": [],
+  "start": 1743634407324,
+  "name": "Test for unsuccessful login for locked out user",
+  "fullName": "Test for unsuccessful login for locked out user",
+  "stop": 1743634409235
+}

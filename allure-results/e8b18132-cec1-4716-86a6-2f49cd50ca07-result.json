@@ -1,1 +1,106 @@
-{"uuid":"e8b18132-cec1-4716-86a6-2f49cd50ca07","historyId":"07fac5a77cd1930ddaa0d4e14dc8b999","status":"failed","statusDetails":{"message":"Timed out retrying after 4000ms: Expected to find content: '.login_logo' but never did.","trace":"AssertionError: Timed out retrying after 4000ms: Expected to find content: '.login_logo' but never did.\n    at Context.eval (webpack://anst_cypress_project/./cypress/e2e/SwagLabsPageFunctionality.spec.cy.js:19:35)"},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743700225547,"name":"visit /","stop":1743700226082},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743700226083,"name":"contains Swag Labs","stop":1743700226125},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743700226125,"name":"assert expected **<div.login_logo>** to be **visible**","stop":1743700226125},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743700226125,"name":"get #login-button","stop":1743700226375},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743700226374,"name":"assert expected **<input#login-button.submit-button.btn_action>** to be **visible**","stop":1743700226374},{"status":"failed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743700226375,"name":"contains .login_logo","stop":1743700230475},{"status":"failed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[{"name":"expected","value":"350px"}],"start":1743700230475,"name":"assert expected **subject** to have CSS property **width**","stop":1743700230475}],"attachments":[],"parameters":[],"labels":[{"name":"package","value":"cypress.e2e.SwagLabsPageFunctionality.spec.cy.js"},{"name":"suite","value":"Page Functionality Test for Saucedemo Project"}],"links":[],"start":1743700225300,"name":"Login Page Functionality Test for Saucedemo website","fullName":"Login Page Functionality Test for Saucedemo website","stop":1743700230476}
+{
+  "uuid": "e8b18132-cec1-4716-86a6-2f49cd50ca07",
+  "historyId": "07fac5a77cd1930ddaa0d4e14dc8b999",
+  "status": "failed",
+  "statusDetails": {
+    "message": "Timed out retrying after 4000ms: Expected to find content: '.login_logo' but never did.",
+    "trace": "AssertionError: Timed out retrying after 4000ms: Expected to find content: '.login_logo' but never did.\n    at Context.eval (webpack://anst_cypress_project/./cypress/e2e/SwagLabsPageFunctionality.spec.cy.js:19:35)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743700225547,
+      "name": "visit /",
+      "stop": 1743700226082
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743700226083,
+      "name": "contains Swag Labs",
+      "stop": 1743700226125
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743700226125,
+      "name": "assert expected **<div.login_logo>** to be **visible**",
+      "stop": 1743700226125
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743700226125,
+      "name": "get #login-button",
+      "stop": 1743700226375
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743700226374,
+      "name": "assert expected **<input#login-button.submit-button.btn_action>** to be **visible**",
+      "stop": 1743700226374
+    },
+    {
+      "status": "failed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743700226375,
+      "name": "contains .login_logo",
+      "stop": 1743700230475
+    },
+    {
+      "status": "failed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [{ "name": "expected", "value": "350px" }],
+      "start": 1743700230475,
+      "name": "assert expected **subject** to have CSS property **width**",
+      "stop": 1743700230475
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "labels": [
+    {
+      "name": "package",
+      "value": "cypress.e2e.SwagLabsPageFunctionality.spec.cy.js"
+    },
+    {
+      "name": "suite",
+      "value": "Page Functionality Test for Saucedemo Project"
+    }
+  ],
+  "links": [],
+  "start": 1743700225300,
+  "name": "Login Page Functionality Test for Saucedemo website",
+  "fullName": "Login Page Functionality Test for Saucedemo website",
+  "stop": 1743700230476
+}

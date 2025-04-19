@@ -1,1 +1,173 @@
-{"uuid":"ad338e00-539a-4d8e-b4be-f95efd7a5923","historyId":"b25c2072ff1d33116824a2648d395b3c","status":"passed","statusDetails":null,"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744995852011,"name":"visit /","stop":1744995852311}],"attachments":[],"parameters":[],"start":1744995851974,"name":"\"before each\" hook","stop":1744995852311},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744995852314,"name":"visit /","stop":1744995852539},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744995852539,"name":"get [data-test=\"username\"]","stop":1744995852542},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744995852819,"name":"get [data-test=\"password\"]","stop":1744995852824},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744995853135,"name":"get #login-button","stop":1744995853139},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744995853139,"name":"click","stop":1744995853258},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744995853258,"name":"new url https://www.saucedemo.com/inventory.html","stop":1744995853258}],"attachments":[],"parameters":[],"start":1744995852313,"name":"loginAs (\"visual\")","stop":1744995853258},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744995853258,"name":"contains Products","stop":1744995853280},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744995853280,"name":"assert expected **<span.title>** to be **visible**","stop":1744995853280},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744995853280,"name":"url","stop":1744995853285},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[{"name":"actual","value":"https://www.saucedemo.com/inventory.html"}],"start":1744995853285,"name":"assert expected **https://www.saucedemo.com/inventory.html** to include **/inventory.html**","stop":1744995853285}],"attachments":[],"parameters":[],"labels":[{"name":"package","value":"cypress.e2e.login.spec.cy.js"},{"name":"suite","value":"Login Test for Saucedemo Project with Multiple Users"}],"links":[],"start":1744995851970,"name":"Test for Visual User Login and Checkout","fullName":"Test for Visual User Login and Checkout","stop":1744995853286}
+{
+  "uuid": "ad338e00-539a-4d8e-b4be-f95efd7a5923",
+  "historyId": "b25c2072ff1d33116824a2648d395b3c",
+  "status": "passed",
+  "statusDetails": null,
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1744995852011,
+          "name": "visit /",
+          "stop": 1744995852311
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744995851974,
+      "name": "\"before each\" hook",
+      "stop": 1744995852311
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1744995852314,
+          "name": "visit /",
+          "stop": 1744995852539
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1744995852539,
+          "name": "get [data-test=\"username\"]",
+          "stop": 1744995852542
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1744995852819,
+          "name": "get [data-test=\"password\"]",
+          "stop": 1744995852824
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1744995853135,
+          "name": "get #login-button",
+          "stop": 1744995853139
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1744995853139,
+          "name": "click",
+          "stop": 1744995853258
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1744995853258,
+          "name": "new url https://www.saucedemo.com/inventory.html",
+          "stop": 1744995853258
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744995852313,
+      "name": "loginAs (\"visual\")",
+      "stop": 1744995853258
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744995853258,
+      "name": "contains Products",
+      "stop": 1744995853280
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744995853280,
+      "name": "assert expected **<span.title>** to be **visible**",
+      "stop": 1744995853280
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744995853280,
+      "name": "url",
+      "stop": 1744995853285
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "actual",
+          "value": "https://www.saucedemo.com/inventory.html"
+        }
+      ],
+      "start": 1744995853285,
+      "name": "assert expected **https://www.saucedemo.com/inventory.html** to include **/inventory.html**",
+      "stop": 1744995853285
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "labels": [
+    { "name": "package", "value": "cypress.e2e.login.spec.cy.js" },
+    {
+      "name": "suite",
+      "value": "Login Test for Saucedemo Project with Multiple Users"
+    }
+  ],
+  "links": [],
+  "start": 1744995851970,
+  "name": "Test for Visual User Login and Checkout",
+  "fullName": "Test for Visual User Login and Checkout",
+  "stop": 1744995853286
+}

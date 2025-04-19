@@ -1,1 +1,8 @@
-[{"name":"Local Machine","type":"local","url":"http://127.0.0.1:55045","buildOrder":1}]
+[
+  {
+    "name": "Local Machine",
+    "type": "local",
+    "url": "http://127.0.0.1:55045",
+    "buildOrder": 1
+  }
+]

@@ -1,1 +1,359 @@
-{"uuid":"1ef3a78f-fc55-436b-aa8e-095d1e1caec0","historyId":"370d52f131db9e5f755dc6ed26e6d06d","status":"failed","statusDetails":{"message":"Cannot read properties of undefined (reading 'get')","trace":"TypeError: Cannot read properties of undefined (reading 'get')\n    at Context.eval (webpack://anst_cypress_project/./cypress/e2e/SwagLabsPageFunctionality.spec.cy.js:63:23)\n    at runnable.fn (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:139129:19)\n    at callFn (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:157729:21)\n    at Runnable.run (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:157716:7)\n    at <unknown> (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:163646:30)\n    at PassThroughHandlerContext.finallyHandler (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:4042:23)\n    at PassThroughHandlerContext.tryCatcher (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1546:18)"},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744552112580,"name":"loginAs (\"standard\")","stop":1744552112581},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744552112581,"name":"url","stop":1744552112581},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744552112582,"name":"contains (\"Swag Labs\")","stop":1744552112582},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744552112582,"name":"contains (\"Products\")","stop":1744552112582},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744552112582,"name":"contains (\"Sauce Labs Backpack\")","stop":1744552112583},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744552112583,"name":"contains (\"Sauce Labs Bike Light\")","stop":1744552112583},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744552112583,"name":"contains (\"Sauce Labs Bolt T-Shirt\")","stop":1744552112584},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744552112584,"name":"contains (\"Sauce Labs Fleece Jacket\")","stop":1744552112584},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744552112584,"name":"contains (\"Sauce Labs Onesie\")","stop":1744552112584},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744552112584,"name":"get (\"#react-burger-menu-btn\")","stop":1744552112584},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744552112584,"name":"click","stop":1744552112585},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744552112585,"name":"get (\"[data-test=\"inventory-sidebar-link\"]\")","stop":1744552112585},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744552112585,"name":"get (\"[data-test=\"about-sidebar-link\"]\")","stop":1744552112585},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744552112585,"name":"get (\"[data-test=\"logout-sidebar-link\"]\")","stop":1744552112585},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744552112585,"name":"get (\"[data-test=\"reset-sidebar-link\"]\")","stop":1744552112586},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744552112586,"name":"get (\"[data-test=\"add-to-cart-sauce-labs-backpack\"]\")","stop":1744552112586},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744552112586,"name":"click","stop":1744552112590},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744552112590,"name":"get (\"[data-test=\"add-to-cart-sauce-labs-bike-light\"]\")","stop":1744552112591},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744552112591,"name":"click","stop":1744552112591},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744552112591,"name":"get (\"[data-test=\"add-to-cart-sauce-labs-bolt-t-shirt\"]\")","stop":1744552112592},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744552112592,"name":"click","stop":1744552112592},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744552112592,"name":"get (\"[data-test=\"add-to-cart-sauce-labs-fleece-jacket\"]\")","stop":1744552112592},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744552112593,"name":"click","stop":1744552112593},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744552112593,"name":"get (\"[data-test=\"add-to-cart-sauce-labs-onesie\"]\")","stop":1744552112593},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744552112593,"name":"click","stop":1744552112593},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744552112593,"name":"get (\"[data-test=\"shopping-cart-link\"]\")","stop":1744552112594},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744552112594,"name":"click","stop":1744552112594},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744552112594,"name":"url","stop":1744552112594},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744552112595,"name":"url","stop":1744552112595},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744552112595,"name":"get (\"[data-test=\"add-to-cart-sauce-labs-backpack\"]\")","stop":1744552112595}],"attachments":[],"parameters":[],"labels":[{"name":"package","value":"cypress.e2e.SwagLabsPageFunctionality.spec.cy.js"},{"name":"suite","value":"Page Functionality Test for Saucedemo Project"}],"links":[],"start":1744552112470,"name":"Inventory Page Functionality Test for Saucedemo website","fullName":"Inventory Page Functionality Test for Saucedemo website","stop":1744552112581}
+{
+  "uuid": "1ef3a78f-fc55-436b-aa8e-095d1e1caec0",
+  "historyId": "370d52f131db9e5f755dc6ed26e6d06d",
+  "status": "failed",
+  "statusDetails": {
+    "message": "Cannot read properties of undefined (reading 'get')",
+    "trace": "TypeError: Cannot read properties of undefined (reading 'get')\n    at Context.eval (webpack://anst_cypress_project/./cypress/e2e/SwagLabsPageFunctionality.spec.cy.js:63:23)\n    at runnable.fn (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:139129:19)\n    at callFn (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:157729:21)\n    at Runnable.run (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:157716:7)\n    at <unknown> (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:163646:30)\n    at PassThroughHandlerContext.finallyHandler (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:4042:23)\n    at PassThroughHandlerContext.tryCatcher (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1546:18)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744552112580,
+      "name": "loginAs (\"standard\")",
+      "stop": 1744552112581
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744552112581,
+      "name": "url",
+      "stop": 1744552112581
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744552112582,
+      "name": "contains (\"Swag Labs\")",
+      "stop": 1744552112582
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744552112582,
+      "name": "contains (\"Products\")",
+      "stop": 1744552112582
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744552112582,
+      "name": "contains (\"Sauce Labs Backpack\")",
+      "stop": 1744552112583
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744552112583,
+      "name": "contains (\"Sauce Labs Bike Light\")",
+      "stop": 1744552112583
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744552112583,
+      "name": "contains (\"Sauce Labs Bolt T-Shirt\")",
+      "stop": 1744552112584
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744552112584,
+      "name": "contains (\"Sauce Labs Fleece Jacket\")",
+      "stop": 1744552112584
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744552112584,
+      "name": "contains (\"Sauce Labs Onesie\")",
+      "stop": 1744552112584
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744552112584,
+      "name": "get (\"#react-burger-menu-btn\")",
+      "stop": 1744552112584
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744552112584,
+      "name": "click",
+      "stop": 1744552112585
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744552112585,
+      "name": "get (\"[data-test=\"inventory-sidebar-link\"]\")",
+      "stop": 1744552112585
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744552112585,
+      "name": "get (\"[data-test=\"about-sidebar-link\"]\")",
+      "stop": 1744552112585
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744552112585,
+      "name": "get (\"[data-test=\"logout-sidebar-link\"]\")",
+      "stop": 1744552112585
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744552112585,
+      "name": "get (\"[data-test=\"reset-sidebar-link\"]\")",
+      "stop": 1744552112586
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744552112586,
+      "name": "get (\"[data-test=\"add-to-cart-sauce-labs-backpack\"]\")",
+      "stop": 1744552112586
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744552112586,
+      "name": "click",
+      "stop": 1744552112590
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744552112590,
+      "name": "get (\"[data-test=\"add-to-cart-sauce-labs-bike-light\"]\")",
+      "stop": 1744552112591
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744552112591,
+      "name": "click",
+      "stop": 1744552112591
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744552112591,
+      "name": "get (\"[data-test=\"add-to-cart-sauce-labs-bolt-t-shirt\"]\")",
+      "stop": 1744552112592
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744552112592,
+      "name": "click",
+      "stop": 1744552112592
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744552112592,
+      "name": "get (\"[data-test=\"add-to-cart-sauce-labs-fleece-jacket\"]\")",
+      "stop": 1744552112592
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744552112593,
+      "name": "click",
+      "stop": 1744552112593
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744552112593,
+      "name": "get (\"[data-test=\"add-to-cart-sauce-labs-onesie\"]\")",
+      "stop": 1744552112593
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744552112593,
+      "name": "click",
+      "stop": 1744552112593
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744552112593,
+      "name": "get (\"[data-test=\"shopping-cart-link\"]\")",
+      "stop": 1744552112594
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744552112594,
+      "name": "click",
+      "stop": 1744552112594
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744552112594,
+      "name": "url",
+      "stop": 1744552112594
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744552112595,
+      "name": "url",
+      "stop": 1744552112595
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744552112595,
+      "name": "get (\"[data-test=\"add-to-cart-sauce-labs-backpack\"]\")",
+      "stop": 1744552112595
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "labels": [
+    {
+      "name": "package",
+      "value": "cypress.e2e.SwagLabsPageFunctionality.spec.cy.js"
+    },
+    {
+      "name": "suite",
+      "value": "Page Functionality Test for Saucedemo Project"
+    }
+  ],
+  "links": [],
+  "start": 1744552112470,
+  "name": "Inventory Page Functionality Test for Saucedemo website",
+  "fullName": "Inventory Page Functionality Test for Saucedemo website",
+  "stop": 1744552112581
+}

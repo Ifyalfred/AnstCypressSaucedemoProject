@@ -1,1 +1,56 @@
-{"uuid":"48c442ac-efc0-4a53-8ca0-0ab625f00b17","historyId":"c24f16e7e796aa8661902e57b8f8b29f","status":"passed","statusDetails":null,"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743688494428,"name":"visit /","stop":1743688506626},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743688506625,"name":"request","stop":1743688506625},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743688506625,"name":"request","stop":1743688506625}],"attachments":[],"parameters":[],"labels":[{"name":"package","value":"cypress.e2e.SwagLabsLoginTest.spec.cy.js"},{"name":"suite","value":"Login Test for Saucedemo Project with Multiple Users"}],"links":[],"start":1743688494425,"name":"Test for Successful Navigation to website","fullName":"Test for Successful Navigation to website","stop":1743688506631}
+{
+  "uuid": "48c442ac-efc0-4a53-8ca0-0ab625f00b17",
+  "historyId": "c24f16e7e796aa8661902e57b8f8b29f",
+  "status": "passed",
+  "statusDetails": null,
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743688494428,
+      "name": "visit /",
+      "stop": 1743688506626
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743688506625,
+      "name": "request",
+      "stop": 1743688506625
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743688506625,
+      "name": "request",
+      "stop": 1743688506625
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "labels": [
+    { "name": "package", "value": "cypress.e2e.SwagLabsLoginTest.spec.cy.js" },
+    {
+      "name": "suite",
+      "value": "Login Test for Saucedemo Project with Multiple Users"
+    }
+  ],
+  "links": [],
+  "start": 1743688494425,
+  "name": "Test for Successful Navigation to website",
+  "fullName": "Test for Successful Navigation to website",
+  "stop": 1743688506631
+}

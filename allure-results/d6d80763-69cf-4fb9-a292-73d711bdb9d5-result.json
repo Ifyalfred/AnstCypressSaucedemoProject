@@ -1,1 +1,126 @@
-{"uuid":"d6d80763-69cf-4fb9-a292-73d711bdb9d5","historyId":"1cba2e8ea7a79223bcf22a38d2cc68fb","status":"failed","statusDetails":{"message":"Timed out retrying after 4000ms: Expected to find element: `#login-button`, but never found it.","trace":"AssertionError: Timed out retrying after 4000ms: Expected to find element: `#login-button`, but never found it.\n    at Context.eval (webpack://anst_cypress_project/./cypress/e2e/SwagLabsLoginTest.spec.cy.js:42:9)"},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743634211525,"name":"visit /","stop":1743634211740},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743634211742,"name":"visit /","stop":1743634212015},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743634212015,"name":"get [data-test=\"username\"]","stop":1743634212020},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743634212324,"name":"get [data-test=\"password\"]","stop":1743634212328},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743634212654,"name":"get #login-button","stop":1743634212656},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743634212656,"name":"click","stop":1743634212740},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743634212740,"name":"new url https://www.saucedemo.com/inventory.html","stop":1743634212740}],"attachments":[],"parameters":[],"start":1743634211740,"name":"loginAs (\"problem\")","stop":1743634212740},{"status":"failed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743634212740,"name":"get #login-button","stop":1743634216777}],"attachments":[],"parameters":[],"labels":[{"name":"package","value":"cypress.e2e.SwagLabsLoginTest.spec.cy.js"},{"name":"suite","value":"Login Test for Saucedemo Project with Multiple Users"}],"links":[],"start":1743634211490,"name":"Test for Problem User Login and Checkout","fullName":"Test for Problem User Login and Checkout","stop":1743634216778}
+{
+  "uuid": "d6d80763-69cf-4fb9-a292-73d711bdb9d5",
+  "historyId": "1cba2e8ea7a79223bcf22a38d2cc68fb",
+  "status": "failed",
+  "statusDetails": {
+    "message": "Timed out retrying after 4000ms: Expected to find element: `#login-button`, but never found it.",
+    "trace": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `#login-button`, but never found it.\n    at Context.eval (webpack://anst_cypress_project/./cypress/e2e/SwagLabsLoginTest.spec.cy.js:42:9)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743634211525,
+      "name": "visit /",
+      "stop": 1743634211740
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1743634211742,
+          "name": "visit /",
+          "stop": 1743634212015
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1743634212015,
+          "name": "get [data-test=\"username\"]",
+          "stop": 1743634212020
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1743634212324,
+          "name": "get [data-test=\"password\"]",
+          "stop": 1743634212328
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1743634212654,
+          "name": "get #login-button",
+          "stop": 1743634212656
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1743634212656,
+          "name": "click",
+          "stop": 1743634212740
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1743634212740,
+          "name": "new url https://www.saucedemo.com/inventory.html",
+          "stop": 1743634212740
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743634211740,
+      "name": "loginAs (\"problem\")",
+      "stop": 1743634212740
+    },
+    {
+      "status": "failed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743634212740,
+      "name": "get #login-button",
+      "stop": 1743634216777
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "labels": [
+    { "name": "package", "value": "cypress.e2e.SwagLabsLoginTest.spec.cy.js" },
+    {
+      "name": "suite",
+      "value": "Login Test for Saucedemo Project with Multiple Users"
+    }
+  ],
+  "links": [],
+  "start": 1743634211490,
+  "name": "Test for Problem User Login and Checkout",
+  "fullName": "Test for Problem User Login and Checkout",
+  "stop": 1743634216778
+}
