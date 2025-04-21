@@ -1,1 +1,214 @@
-{"uuid":"f39bbdd2-f1a2-4e7d-af43-a919976e2afb","historyId":"e48aedd27c7356c9c6e4458e848c0cf3","status":"passed","statusDetails":null,"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743612448711,"name":"visit /","stop":1743612449144},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743612449146,"name":"get [data-test=\"username\"]","stop":1743612449165},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743612449165,"name":"type error_user","stop":1743612449485}],"attachments":[],"parameters":[],"start":1743612449144,"name":"typeTextCommand (\"[data-test=\"username\"]\"; \"error_user\")","stop":1743612449485},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743612449487,"name":"get [data-test=\"password\"]","stop":1743612449493},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743612449493,"name":"type secret_sauce","stop":1743612449836}],"attachments":[],"parameters":[],"start":1743612449485,"name":"typeTextCommand (\"[data-test=\"password\"]\"; \"secret_sauce\")","stop":1743612449836},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743612449836,"name":"wait 4000","stop":1743612453843},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743612453842,"name":"request","stop":1743612453842},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743612453843,"name":"request","stop":1743612453843},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743612453843,"name":"get #login-button","stop":1743612453846},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743612453846,"name":"click","stop":1743612453960},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743612453960,"name":"new url https://www.saucedemo.com/inventory.html","stop":1743612453960},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743612453960,"name":"contains Products","stop":1743612453969},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743612453969,"name":"assert expected **<span.title>** to be **visible**","stop":1743612453969},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743612453969,"name":"url","stop":1743612453973},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[{"name":"actual","value":"https://www.saucedemo.com/inventory.html"}],"start":1743612453973,"name":"assert expected **https://www.saucedemo.com/inventory.html** to include **/inventory.html**","stop":1743612453973}],"attachments":[],"parameters":[],"labels":[{"name":"package","value":"cypress.e2e.SwagLabsLoginTest.spec.cy.js"},{"name":"suite","value":"Login Test for Saucedemo"}],"links":[],"start":1743612448643,"name":"Test for Error User Login and Checkout","fullName":"Test for Error User Login and Checkout","stop":1743612453978}
+{
+  "uuid": "f39bbdd2-f1a2-4e7d-af43-a919976e2afb",
+  "historyId": "e48aedd27c7356c9c6e4458e848c0cf3",
+  "status": "passed",
+  "statusDetails": null,
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743612448711,
+      "name": "visit /",
+      "stop": 1743612449144
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1743612449146,
+          "name": "get [data-test=\"username\"]",
+          "stop": 1743612449165
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1743612449165,
+          "name": "type error_user",
+          "stop": 1743612449485
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743612449144,
+      "name": "typeTextCommand (\"[data-test=\"username\"]\"; \"error_user\")",
+      "stop": 1743612449485
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1743612449487,
+          "name": "get [data-test=\"password\"]",
+          "stop": 1743612449493
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1743612449493,
+          "name": "type secret_sauce",
+          "stop": 1743612449836
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743612449485,
+      "name": "typeTextCommand (\"[data-test=\"password\"]\"; \"secret_sauce\")",
+      "stop": 1743612449836
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743612449836,
+      "name": "wait 4000",
+      "stop": 1743612453843
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743612453842,
+      "name": "request",
+      "stop": 1743612453842
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743612453843,
+      "name": "request",
+      "stop": 1743612453843
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743612453843,
+      "name": "get #login-button",
+      "stop": 1743612453846
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743612453846,
+      "name": "click",
+      "stop": 1743612453960
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743612453960,
+      "name": "new url https://www.saucedemo.com/inventory.html",
+      "stop": 1743612453960
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743612453960,
+      "name": "contains Products",
+      "stop": 1743612453969
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743612453969,
+      "name": "assert expected **<span.title>** to be **visible**",
+      "stop": 1743612453969
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743612453969,
+      "name": "url",
+      "stop": 1743612453973
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "actual",
+          "value": "https://www.saucedemo.com/inventory.html"
+        }
+      ],
+      "start": 1743612453973,
+      "name": "assert expected **https://www.saucedemo.com/inventory.html** to include **/inventory.html**",
+      "stop": 1743612453973
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "labels": [
+    { "name": "package", "value": "cypress.e2e.SwagLabsLoginTest.spec.cy.js" },
+    { "name": "suite", "value": "Login Test for Saucedemo" }
+  ],
+  "links": [],
+  "start": 1743612448643,
+  "name": "Test for Error User Login and Checkout",
+  "fullName": "Test for Error User Login and Checkout",
+  "stop": 1743612453978
+}

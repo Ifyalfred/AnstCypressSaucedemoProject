@@ -1,1 +1,40 @@
-{"uuid":"bb3d9c31-517f-4360-8662-f7f56dd6847a","historyId":"370d52f131db9e5f755dc6ed26e6d06d","status":"failed","statusDetails":{"message":"`cy.visit()` failed trying to load:\n\nhttps://www.saucedemo.com/inventory.html\n\nThe response we received from your web server was:\n\n  > 404: Not Found\n\nThis was considered a failure because the status code was not `2xx`.\n\nIf you do not want status codes to cause failures pass the option: `failOnStatusCode: false`","trace":"CypressError: `cy.visit()` failed trying to load:\n\nhttps://www.saucedemo.com/inventory.html\n\nThe response we received from your web server was:\n\n  > 404: Not Found\n\nThis was considered a failure because the status code was not `2xx`.\n\nIf you do not want status codes to cause failures pass the option: `failOnStatusCode: false`\n    at <unknown> (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:132351:76)\n    at visitFailedByErr (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:131757:12)\n    at <unknown> (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:132334:13)\n    at tryCatcher (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1667:18)\n    at _drainQueueStep (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:2377:12)\nFrom previous event:\n    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:3456:19)\n    at Promise._then (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1209:17)\n    at Promise._passThrough (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:4080:17)\n    at Promise.lastly.Promise.finally (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:4089:17)\n    at Object.onRunnableRun (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:163629:53)\n    at $Cypress.action (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:41559:28)\n    at Runnable.run (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:146211:13)\n    at Runner.runTest (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:156153:10)\n    at <unknown> (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:156279:12)\n    at next (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:156062:14)\n    at <unknown> (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:156072:7)\n    at next (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:155974:14)\n    at <unknown> (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:156040:5)\n    at timeslice (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:146551:27)\nFrom Your Spec Code:\n    at Context.eval (webpack://anst_cypress_project/./cypress/e2e/SwagLabsPageFunctionality.spec.cy.js:28:11)"},"stage":"finished","steps":[{"status":"failed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743742876722,"name":"visit /inventory.html","stop":1743742877204}],"attachments":[],"parameters":[],"labels":[{"name":"package","value":"cypress.e2e.SwagLabsPageFunctionality.spec.cy.js"},{"name":"suite","value":"Page Functionality Test for Saucedemo Project"}],"links":[],"start":1743742876599,"name":"Inventory Page Functionality Test for Saucedemo website","fullName":"Inventory Page Functionality Test for Saucedemo website","stop":1743742877204}
+{
+  "uuid": "bb3d9c31-517f-4360-8662-f7f56dd6847a",
+  "historyId": "370d52f131db9e5f755dc6ed26e6d06d",
+  "status": "failed",
+  "statusDetails": {
+    "message": "`cy.visit()` failed trying to load:\n\nhttps://www.saucedemo.com/inventory.html\n\nThe response we received from your web server was:\n\n  > 404: Not Found\n\nThis was considered a failure because the status code was not `2xx`.\n\nIf you do not want status codes to cause failures pass the option: `failOnStatusCode: false`",
+    "trace": "CypressError: `cy.visit()` failed trying to load:\n\nhttps://www.saucedemo.com/inventory.html\n\nThe response we received from your web server was:\n\n  > 404: Not Found\n\nThis was considered a failure because the status code was not `2xx`.\n\nIf you do not want status codes to cause failures pass the option: `failOnStatusCode: false`\n    at <unknown> (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:132351:76)\n    at visitFailedByErr (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:131757:12)\n    at <unknown> (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:132334:13)\n    at tryCatcher (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1667:18)\n    at _drainQueueStep (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:2377:12)\nFrom previous event:\n    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:3456:19)\n    at Promise._then (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1209:17)\n    at Promise._passThrough (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:4080:17)\n    at Promise.lastly.Promise.finally (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:4089:17)\n    at Object.onRunnableRun (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:163629:53)\n    at $Cypress.action (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:41559:28)\n    at Runnable.run (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:146211:13)\n    at Runner.runTest (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:156153:10)\n    at <unknown> (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:156279:12)\n    at next (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:156062:14)\n    at <unknown> (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:156072:7)\n    at next (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:155974:14)\n    at <unknown> (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:156040:5)\n    at timeslice (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:146551:27)\nFrom Your Spec Code:\n    at Context.eval (webpack://anst_cypress_project/./cypress/e2e/SwagLabsPageFunctionality.spec.cy.js:28:11)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "failed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743742876722,
+      "name": "visit /inventory.html",
+      "stop": 1743742877204
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "labels": [
+    {
+      "name": "package",
+      "value": "cypress.e2e.SwagLabsPageFunctionality.spec.cy.js"
+    },
+    {
+      "name": "suite",
+      "value": "Page Functionality Test for Saucedemo Project"
+    }
+  ],
+  "links": [],
+  "start": 1743742876599,
+  "name": "Inventory Page Functionality Test for Saucedemo website",
+  "fullName": "Inventory Page Functionality Test for Saucedemo website",
+  "stop": 1743742877204
+}

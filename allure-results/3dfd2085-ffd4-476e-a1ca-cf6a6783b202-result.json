@@ -1,1 +1,126 @@
-{"uuid":"3dfd2085-ffd4-476e-a1ca-cf6a6783b202","historyId":"c3d5bd9a9b927ea4ab712745095bfc77","status":"failed","statusDetails":{"message":"Timed out retrying after 4000ms: Expected to find element: `#login-button`, but never found it.","trace":"AssertionError: Timed out retrying after 4000ms: Expected to find element: `#login-button`, but never found it.\n    at Context.eval (webpack://anst_cypress_project/./cypress/e2e/SwagLabsLoginTest.spec.cy.js:50:9)"},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743634217404,"name":"visit /","stop":1743634217642},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743634217643,"name":"visit /","stop":1743634217861},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743634217861,"name":"get [data-test=\"username\"]","stop":1743634217865},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743634218289,"name":"get [data-test=\"password\"]","stop":1743634218292},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743634218589,"name":"get #login-button","stop":1743634218591},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743634218591,"name":"click","stop":1743634223678},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743634223678,"name":"new url https://www.saucedemo.com/inventory.html","stop":1743634223678}],"attachments":[],"parameters":[],"start":1743634217642,"name":"loginAs (\"performance\")","stop":1743634223678},{"status":"failed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743634223678,"name":"get #login-button","stop":1743634227677}],"attachments":[],"parameters":[],"labels":[{"name":"package","value":"cypress.e2e.SwagLabsLoginTest.spec.cy.js"},{"name":"suite","value":"Login Test for Saucedemo Project with Multiple Users"}],"links":[],"start":1743634217358,"name":"Test for Performance Glitch User Login and Checkout","fullName":"Test for Performance Glitch User Login and Checkout","stop":1743634227677}
+{
+  "uuid": "3dfd2085-ffd4-476e-a1ca-cf6a6783b202",
+  "historyId": "c3d5bd9a9b927ea4ab712745095bfc77",
+  "status": "failed",
+  "statusDetails": {
+    "message": "Timed out retrying after 4000ms: Expected to find element: `#login-button`, but never found it.",
+    "trace": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `#login-button`, but never found it.\n    at Context.eval (webpack://anst_cypress_project/./cypress/e2e/SwagLabsLoginTest.spec.cy.js:50:9)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743634217404,
+      "name": "visit /",
+      "stop": 1743634217642
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1743634217643,
+          "name": "visit /",
+          "stop": 1743634217861
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1743634217861,
+          "name": "get [data-test=\"username\"]",
+          "stop": 1743634217865
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1743634218289,
+          "name": "get [data-test=\"password\"]",
+          "stop": 1743634218292
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1743634218589,
+          "name": "get #login-button",
+          "stop": 1743634218591
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1743634218591,
+          "name": "click",
+          "stop": 1743634223678
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1743634223678,
+          "name": "new url https://www.saucedemo.com/inventory.html",
+          "stop": 1743634223678
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743634217642,
+      "name": "loginAs (\"performance\")",
+      "stop": 1743634223678
+    },
+    {
+      "status": "failed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743634223678,
+      "name": "get #login-button",
+      "stop": 1743634227677
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "labels": [
+    { "name": "package", "value": "cypress.e2e.SwagLabsLoginTest.spec.cy.js" },
+    {
+      "name": "suite",
+      "value": "Login Test for Saucedemo Project with Multiple Users"
+    }
+  ],
+  "links": [],
+  "start": 1743634217358,
+  "name": "Test for Performance Glitch User Login and Checkout",
+  "fullName": "Test for Performance Glitch User Login and Checkout",
+  "stop": 1743634227677
+}

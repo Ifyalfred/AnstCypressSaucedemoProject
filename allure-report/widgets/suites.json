@@ -1,1 +1,17 @@
-{"total":1,"items":[{"uid":"f3199220112ab1769afd79f1c9579d0b","name":"Login Test for Saucedemo","statistic":{"failed":0,"broken":0,"skipped":0,"passed":6,"unknown":0,"total":6}}]}
+{
+  "total": 1,
+  "items": [
+    {
+      "uid": "f3199220112ab1769afd79f1c9579d0b",
+      "name": "Login Test for Saucedemo",
+      "statistic": {
+        "failed": 0,
+        "broken": 0,
+        "skipped": 0,
+        "passed": 6,
+        "unknown": 0,
+        "total": 6
+      }
+    }
+  ]
+}

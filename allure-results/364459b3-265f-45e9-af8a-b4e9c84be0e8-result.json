@@ -1,1 +1,51 @@
-{"uuid":"364459b3-265f-45e9-af8a-b4e9c84be0e8","historyId":"b6a99bd5cf605a0f3251377c509c4eeb","status":"failed","statusDetails":{"message":"Timed out retrying after 4000ms: expected 'about:blank' to include '/cart.html'","trace":"AssertionError: Timed out retrying after 4000ms: expected 'about:blank' to include '/cart.html'\n    at Context.eval (webpack://anst_cypress_project/./cypress/e2e/SwagLabsPageFunctionality.spec.cy.js:76:29)"},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1744553415068,"name":"url","stop":1744553419113},{"status":"failed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[{"name":"actual","value":"about:blank"}],"start":1744553419113,"name":"assert expected **about:blank** to include **/cart.html**","stop":1744553419113}],"attachments":[],"parameters":[],"labels":[{"name":"package","value":"cypress.e2e.SwagLabsPageFunctionality.spec.cy.js"},{"name":"suite","value":"Page Functionality Test for Saucedemo Project"}],"links":[],"start":1744553414968,"name":"Cart Page Functionality Test for Saucedemo website","fullName":"Cart Page Functionality Test for Saucedemo website","stop":1744553419114}
+{
+  "uuid": "364459b3-265f-45e9-af8a-b4e9c84be0e8",
+  "historyId": "b6a99bd5cf605a0f3251377c509c4eeb",
+  "status": "failed",
+  "statusDetails": {
+    "message": "Timed out retrying after 4000ms: expected 'about:blank' to include '/cart.html'",
+    "trace": "AssertionError: Timed out retrying after 4000ms: expected 'about:blank' to include '/cart.html'\n    at Context.eval (webpack://anst_cypress_project/./cypress/e2e/SwagLabsPageFunctionality.spec.cy.js:76:29)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1744553415068,
+      "name": "url",
+      "stop": 1744553419113
+    },
+    {
+      "status": "failed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [{ "name": "actual", "value": "about:blank" }],
+      "start": 1744553419113,
+      "name": "assert expected **about:blank** to include **/cart.html**",
+      "stop": 1744553419113
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "labels": [
+    {
+      "name": "package",
+      "value": "cypress.e2e.SwagLabsPageFunctionality.spec.cy.js"
+    },
+    {
+      "name": "suite",
+      "value": "Page Functionality Test for Saucedemo Project"
+    }
+  ],
+  "links": [],
+  "start": 1744553414968,
+  "name": "Cart Page Functionality Test for Saucedemo website",
+  "fullName": "Cart Page Functionality Test for Saucedemo website",
+  "stop": 1744553419114
+}

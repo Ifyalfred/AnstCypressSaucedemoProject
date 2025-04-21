@@ -1,1 +1,45 @@
-{"uuid":"c9e9332a-6ae5-4a3f-af53-dcc1ac91b7ed","historyId":"b82d959b91435b370f2f3680128ef347","status":"passed","statusDetails":null,"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743631392661,"name":"log Users:, Object{6}","stop":1743631392676},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1743631392677,"name":"log Password:, secret_sauce","stop":1743631392681}],"attachments":[],"parameters":[],"labels":[{"name":"package","value":"cypress.e2e.SwagLabsLoginTest.spec.cy.js"},{"name":"suite","value":"Login Test for Saucedemo Project with Multiple Users"}],"links":[],"start":1743631392649,"name":"checks Cypress.env variables","fullName":"checks Cypress.env variables","stop":1743631392683}
+{
+  "uuid": "c9e9332a-6ae5-4a3f-af53-dcc1ac91b7ed",
+  "historyId": "b82d959b91435b370f2f3680128ef347",
+  "status": "passed",
+  "statusDetails": null,
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743631392661,
+      "name": "log Users:, Object{6}",
+      "stop": 1743631392676
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743631392677,
+      "name": "log Password:, secret_sauce",
+      "stop": 1743631392681
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "labels": [
+    { "name": "package", "value": "cypress.e2e.SwagLabsLoginTest.spec.cy.js" },
+    {
+      "name": "suite",
+      "value": "Login Test for Saucedemo Project with Multiple Users"
+    }
+  ],
+  "links": [],
+  "start": 1743631392649,
+  "name": "checks Cypress.env variables",
+  "fullName": "checks Cypress.env variables",
+  "stop": 1743631392683
+}

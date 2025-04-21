@@ -1,4 +1,4 @@
-## About SwagLabs
+# About SwagLabs
 
 SwagLabs also know as Saucedemo is a demo e-commerce website used for testing and training in web automation.
 It provides a controlled environment to simulate real-world user interactions such as login, adding products to the cart, and completing checkout.
@@ -41,7 +41,7 @@ The project structure is organized as follows:
 
 To set up the project, follow these steps:
 
-1. Clone the repository using the command `git clone <https://github.com/yourusername/saucedemo-project.git>
+1. Clone the repository using the command `git clone <https://github.com/Ifyalfred/AnstCypressSaucedemoProject.git>
 2. Navigate to the Project Directory: cd ANST_CYPRESS_PROJECT_TDD
 3. Install Node.js
 4. Install the required dependencies npm by running `npm install` in the project directory.
